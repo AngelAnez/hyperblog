@@ -3,15 +3,23 @@
 }
 
 body{
-    font-family: Arial;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: blue;
-    background-color:aliceblue;
+    background-color: rgb(37, 34, 34);
     text-align: center;
 }
 
 section{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
     border: 1px solid black;
-    background-color: green;
+    background-color: rgb(230, 230, 230);
     padding: 10px;
-    margin: 20px;
+    margin: 20px 80px;
+}
+
+#titulo{
+    text-align: center;
+    padding-bottom: 10px;
 }
